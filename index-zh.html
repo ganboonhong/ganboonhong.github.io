@@ -31,7 +31,7 @@
 				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 					    <div class="primary-info">
 						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">顏文豐</h1>
-						    <div class="title mb-3">全端開發者</div>
+						    <div class="title mb-3">網頁開發者</div>
 						    <ul class="list-unstyled">
 							    <li class="mb-2"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>ganboonhong@gmail.com</li>
 							    <li class="mb-2"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>(+886) 0966 791 207</li>
@@ -54,20 +54,6 @@
 			    </div><!--//media-->
 		    </header>
 		    <div class="resume-body p-5">
-			    <section class="resume-section summary-section mb-5">
-				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">職涯發展</h2>
-				    <div class="resume-section-content">
-					    <p class="mb-0">
-                        大學畢業前曾在臺灣一間網頁設計公司實習，畢業後即轉為正職。當時工作內容主要負責維護現有專案， 以及協助其他程式設計師開發新專案。
-                        <br /><br />
-                        當我在新加坡一家開發ERP系統的公司工作時，主要負責不同客戶ERP系統的部份模組、回覆客戶在諮詢系統中所提出的疑問及需求、 並針對一些設計較複雜的功能進行人工測試以確保系統的穩定性。 
-                        <br /><br />
-                        之後我在一家新創公司開發一套全新的保全系統，這機會讓我學習到如何去設計一個專案的系統架構。由於設備上的硬體資源，比起一般電腦及伺服器，相對的少了許多（降低成本以提高利潤），我們必須減少系統資源的使用，所以我們選擇了輕量級的傳輸協議(MQTT)來處理資料的傳輸，一方面也是為了盡可能減少資料傳輸的延遲時間。這也讓我有機會學習如何透過MQTT協議來處理瀏覽器、伺服器、設備之間的溝通。
-                        <br /><br />
-                        在一個節奏快速的工作環境裡，我必須不斷找出更有效率的方式來處理問題，而我相信，與其使用臨時的解決方案來解決問題，花時間找出問題源頭才是解決的根本之道。
-                    </p>
-				    </div>
-			    </section><!--//summary-section-->
 			    <div class="row">
 				    <div class="col-lg-9">
 					    <section class="resume-section experience-section mb-5">
@@ -85,19 +71,20 @@
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
 										    <p>
-                                                在一家新創公司中，我負責開發一個全新的系統，使用php（非框架）及 Node.js來開發後端，使用jQuery來開發前端。此系統的模組包括：使用者、公司、權限、設備、儀表板、回放、節點（巢狀資料表）模組及信箱通知模組。
+                                                在一家新創公司中，我負責開發一個全新的系統，使用php（非框架）及 Node.js來開發後端使用者介面，使用jQuery來開發前端。
                                             </p>
 										    <!-- <h4 class="resume-timeline-item-desc-heading font-weight-bold">IoT API</h4> -->
-										    <p>開發讓保全設備（監視器、代理設備、錄影設備）與伺服器溝通的物聯網API</p>
+										    <p>開發讓保全設備（監視器、代理設備、錄影設備）與伺服器溝通的API</p>
 										    <ul>
 											    <li>透過MQTT協議，用Node.js來監聽、接收保全設備傳來的訊息</li>
-											    <li>當監視器偵測到有特定的事件（物體移動、人臉、指定人臉。。。）發生時，監聽該事件並儲存相關資料到資料庫</li>
+											    <li>當監視器偵測到有特定的事件（物體移動、人臉、指定人臉等）發生時，監聽該事件並儲存相關資料到資料庫</li>
 											    <li>收集設備定時發出的熱力圖資料</li>
 										    </ul>
 
                                             <p>開發客戶端（瀏覽器）與伺服器端溝通的API</p>
                                             <ul>
                                                 <li>設計API服務架構</li>
+                                                <li>驗證資料類型正確性、一致性，以及防止SQL注入等安全漏洞</li>
                                                 <li>發送MQTT訊息到設備，並記錄所發送過的訊息及其發送狀態</li>
                                             </ul>
 
@@ -184,7 +171,7 @@
                                         
                                         <div class="resume-timeline-item-header mb-2">
                                             <div class="d-flex flex-column flex-md-row">
-                                                <h3 class="resume-position-title font-weight-bold mb-1">打工旅遊</h3>
+                                                <h3 class="resume-position-title font-weight-bold mb-1">文化交流計畫</h3>
                                                 <div class="resume-company-name ml-auto">俄亥俄州，美國</div>
                                             </div><!--//row-->
                                             <div class="resume-position-time">2013 Jul. - Sep.</div>
@@ -221,7 +208,7 @@
                                         <div class="resume-timeline-item-desc">
                                             <!-- <h4 class="resume-timeline-item-desc-heading font-weight-bold">IoT API</h4> -->
                                             <p>
-                                            在異鄉工作的我，已養成閱讀本地新聞（工作所在地）、馬來西亞新聞（本身的國家）以及一些國際新聞。此外，身為軟體開發者，我對科技新聞也非常有興趣。但我必須造訪不同的網頁才能閱讀上述的新聞，我希望能夠省去這個麻煩，在一個網站內就能閱讀指定國家以及指定來源的新聞。正好我正在學習Go語言，所以我決定寫一個符合上述需求的網頁。此網頁的基本功能如下：
+                                            在異鄉工作的我，除了閱讀本地新聞，我也會閱讀我國的新聞（馬來西亞）以及一些國際新聞。身為軟體開發者，我對科技新聞也非常有興趣。但我必須造訪不同的網頁才能閱讀上述的新聞，我希望能夠省去這個麻煩，在一個網站內就能閱讀指定國家以及指定來源的新聞。正好我正在學習Go語言，所以我決定寫一個符合上述需求的網頁。此網頁的基本功能如下：
                                             </p>
                                             <ul>
                                                 <li>搜尋指定國家的新聞</li>
@@ -255,7 +242,7 @@
                                             <!-- <div class="resume-position-time">2015 - 2017</div> -->
                                         </div><!--//resume-timeline-item-header-->
                                         <div class="resume-timeline-item-desc">
-                                            <p>我使用 Node.js 網站後台管理CMS系統 (<a href="https://keystonejs.com/">KeystoneJs</a>)來管理我的部落格。</p>
+                                            <p>我使用 Node.js 網站後台管理CMS系統 (<a href="https://keystonejs.com/">KeystoneJs</a>)來管理個人部落格。</p>
                                             <!-- <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
                                             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p> -->
                                             <p><b>網頁:</b> <a href="https://y-note.ddns.net/blog" target="_blank">y-note.ddns.net</a></p>
@@ -275,14 +262,16 @@
                                     <!--//resume-timeline-item-->
 
                                 </div><!--//resume-timeline-->
-                                
-                                
-                                
-                                
-                                
-                                
                             </div>
                         </section><!--//project-section-->
+
+                        <section class="resume-section summary-section mb-5">
+                            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">關於我</h2>
+                            <div class="resume-section-content">
+                                在這四年的工作中，我開發過了保全系統、ERP系統以及電商系統。在一個節奏快速的工作環境中，我必須不斷找出更有效率的方式來處理問題，因為根除問題才是解決問題的根本之道。
+                            </p>
+                            </div>
+                        </section>
                     </div>
 				    <div class="col-lg-3">
 					    <section class="resume-section skills-section mb-5">

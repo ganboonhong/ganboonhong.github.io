@@ -31,7 +31,7 @@
 				    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 					    <div class="primary-info">
 						    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Francis Gan</h1>
-						    <div class="title mb-3">Full Stack Developer</div>
+						    <div class="title mb-3">Web Developer</div>
 						    <ul class="list-unstyled">
 							    <li class="mb-2"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>ganboonhong@gmail.com</li>
 							    <li class="mb-2"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>(+886) 0966 791 207</li>
@@ -54,17 +54,7 @@
 			    </div><!--//media-->
 		    </header>
 		    <div class="resume-body p-5">
-			    <section class="resume-section summary-section mb-5">
-				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
-				    <div class="resume-section-content">
-					    <p class="mb-0">
-                        I was an intern at a web design company during the last semester in National Taiwan University, and I joined the company after graduated. I was in charge of maintaining the existing projects and assisting senior developers for new projects. 
-                        <br><br>When I was working on the ERP system at a Singapore company, I was in charge of specific modules of an ERP system for different companies. In addition, I was responsible of handling the ticketing system for customer support and the doing the integration testing for those complicated functions currently without unit test to ensure our system is robust. 
-                        <br><br>When I was working on the surveillance system for a startup, I had to start everything from scratch and which gave me an opportunity to design the project structure. Since the hardware resources on our devices are relatively less than average computers and servers (in order to minimize the cost and maximize the profit), we need to choose the protocol as lightweight as possible while satisfying our needs. Which gave me a chance to learn MQTT protocol and communicating between three parties (browser, server and devices). 
-
-                        <br><br>Being in a fast-paced environment, I need to keep finding more effective ways to complete the tasks within limited time. Instead of solving an issue with a temporary solution, I prefer to spend time on finding the root causes of the issues and solve it permanently.</p>
-				    </div>
-			    </section><!--//summary-section-->
+			    <!--//summary-section-->
 			    <div class="row">
 				    <div class="col-lg-9">
 					    <section class="resume-section experience-section mb-5">
@@ -81,23 +71,24 @@
 										    <div class="resume-position-time">2017 - 2019</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>At a startup company, I build the surveillance system from scratch using plain Php and Node.js for backend and jQuery for frontend. This system includes user, company, permission, device, dashboard, playback, nodes (Nested Set Model) modules and mailing notification. </p>
+										    <p>At a startup company, I built the surveillance system from scratch using plain Php and Node.js for backend and jQuery for frontend.</p>
 										    <!-- <h4 class="resume-timeline-item-desc-heading font-weight-bold">IoT API</h4> -->
-										    <p>Create IoT API between surveillance devices (camera, proxy device, NVR) and server</p>
+										    <p>API between surveillance devices(camera, proxy device, NVR) and server</p>
 										    <ul>
 											    <li>Use Node.js to receive information from devices via MQTT protocol.</li>
 											    <li>Receive motion detection data when camera found a motion.</li>
-											    <li>Receive a facial detection data when proxy recognized a face (through 'Amazon Rekognition' service)</li>
+											    <li>Receive a facial detection data when proxy recognized a face</li>
 											    <li>Receive heat map data periodically after proxy collected data from camera</li>
 										    </ul>
 
-                                            <p>Web API between client(browser) and server</p>
+                                            <p>API between client(web browser) and server</p>
                                             <ul>
-                                                <li>Design API service structure</li>
+                                                <li>Design API service structure in Php</li>
+                                                <li>Data validation, data integrity check, Sql Injection check, ...</li>
                                                 <li>Publish MQTT to topic devices to change devices' configuration</li>
                                             </ul>
 
-                                            <p>Web Interface</p>
+                                            <p>Web User Interface</p>
                                             <ul>
                                                 <li>Using jQuery to manipulate DOM and handle interaction between users and system.</li>
                                             </ul>
@@ -134,7 +125,7 @@
 										    <div class="resume-position-time">2015 - 2017</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Used Cakephp & jQuery to develop our ERP system for different companies. The ERP system include customer side (quotation, sales, deliver), supplier side (quotation, purchase , deliver) and stock management modules.</p>
+										    <p>Used Cakephp & jQuery to develop our ERP system for different companies. The ERP system include customer side modules (quotation, sales, deliver), supplier side modules (quotation, purchase , deliver) and stock management modules.</p>
 										    <!-- <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
 										    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p> -->
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
@@ -154,13 +145,13 @@
 									    
 									    <div class="resume-timeline-item-header mb-2">
 										    <div class="d-flex flex-column flex-md-row">
-										        <h3 class="resume-position-title font-weight-bold mb-1">Web Developer (Customized System)</h3>
+										        <h3 class="resume-position-title font-weight-bold mb-1">Web Developer (Customized Systems)</h3>
 										        <div class="resume-company-name ml-auto">Taipei, Taiwan</div>
 										    </div><!--//row-->
 										    <div class="resume-position-time">2014 - 2015</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>We build customized shopping cart and content management systems for different customers.</p>
+										    <p>Customized shopping cart and content management systems for different clients.</p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge badge-primary badge-pill">Php</span></li>
@@ -174,20 +165,20 @@
 
 								    </article><!--//resume-timeline-item-->
 
-                                    <article class="resume-timeline-item position-relative pb-5">
-                                        
+                                    <!-- <article class="resume-timeline-item position-relative pb-5">
                                         <div class="resume-timeline-item-header mb-2">
                                             <div class="d-flex flex-column flex-md-row">
-                                                <h3 class="resume-position-title font-weight-bold mb-1">Food Attendant (Amusement Park)</h3>
+                                                <h3 class="resume-position-title font-weight-bold mb-1">Working Experience in the US</h3>
                                                 <div class="resume-company-name ml-auto">Ohio, US</div>
-                                            </div><!--//row-->
+                                            </div>
                                             <div class="resume-position-time">2013 Jul. - Sep.</div>
-                                        </div><!--//resume-timeline-item-header-->
+                                        </div>
                                         <div class="resume-timeline-item-desc">
-                                            <p>I was being a food attendant in Cedar Point Amusement Park.</p>
-                                        </div><!--//resume-timeline-item-desc-->
+                                            <p>It was the first time for me to work and live in a western country with unfamiliar culture and people around the world.
+                                            I got to force myself to adapt and learn about new environment, looking back, which is one of the helpful skills for me in any working environment.</p>
+                                        </div>
+                                    </article> -->
 
-                                    </article>
 							    </div><!--//resume-timeline-->
 							    
 							    
@@ -214,11 +205,11 @@
                                         </div><!--//resume-timeline-item-header-->
                                         <div class="resume-timeline-item-desc">
                                             <!-- <h4 class="resume-timeline-item-desc-heading font-weight-bold">IoT API</h4> -->
-                                            <p>As a foreigner in Taiwan, I get used to read the local news (where I am), Malaysia news(where I came from)  and some international news. Besides, as a software devoloper, I am also interested in the technology news. But I have to visit different news websites for those news, so I wished I could read the news from specific countries and sources within a website. Since I am learning Golang, I decided to create a website that satisfies my own needs. So I created a website that has the following basic features:</p>
+                                            <p>As a foreigner in Taiwan, I not only read the local news, but also Malaysia news  and some international news. As a software devoloper, I am also interested in the technology news. But I have to visit different news websites for those news, so I wished I could just read the news from specific countries and sources within a website. Since I am learning Golang, I decided to use it to create a website that satisfies my own needs. So I created a website with the following features:</p>
                                             <ul>
-                                                <li>Search news by country</li>
-                                                <li>Search news by source</li>
-                                                <li>Search news in specific date range</li>
+                                                <li>Search by country</li>
+                                                <li>Search by source</li>
+                                                <li>Search in specific date range</li>
                                                 <li>User Module (WIP)</li>
                                             </ul>
                                             <p><b>Site:</b> <a href="http://newsreader.ddns.net" target="_blank">newsreader.ddns.net</a></p>
@@ -247,7 +238,7 @@
                                             <!-- <div class="resume-position-time">2015 - 2017</div> -->
                                         </div><!--//resume-timeline-item-header-->
                                         <div class="resume-timeline-item-desc">
-                                            <p>I use a Node.js CMS (<a href="https://keystonejs.com/">KeystoneJs</a>) to manage my own blog.</p>
+                                            <p>Using Node.js CMS (<a href="https://keystonejs.com/">KeystoneJs</a>) to manage my personal blog.</p>
                                             <!-- <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
                                             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p> -->
                                             <p><b>Site:</b> <a href="https://y-note.ddns.net/blog" target="_blank">y-note.ddns.net</a></p>
@@ -289,18 +280,18 @@
 											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
-                                        <li class="mb-2">
-                                            <div class="resume-skill-name">Vanilla JS</div>
-                                            <div class="progress resume-progress">
-                                                <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </li>
 								        <li class="mb-2">
 								            <div class="resume-skill-name">Mysql</div>
 									        <div class="progress resume-progress">
 											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 								        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Vanilla JS</div>
+                                            <div class="progress resume-progress">
+                                                <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </li>
 								        <li class="mb-2">
 								            <div class="resume-skill-name">HTML/CSS</div>
 									        <div class="progress resume-progress">
@@ -396,15 +387,33 @@
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
 						    <div class="resume-section-content">
 							    <ul class="list-unstyled">
-								    <li class="mb-1">Swimming</li>
-								    <li class="mb-1">Playing Basketball</li>
-								    <li class="mb-1">Coding</li>
+								    <li class="mb-1">Blockchain</li>
+                                    <li class="mb-1">Coding</li>
+								    <li class="mb-1">Minimalism</li>
 							    </ul>
 						    </div>
 					    </section><!--//interests-section-->
+                        <section class="resume-section interests-section mb-5">
+                            <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Others</h2>
+                            <div class="resume-section-content">
+                                <ul class="list-unstyled">
+                                    <li class="mb-1">Working & Travel in US</li>
+                                </ul>
+                            </div>
+                        </section><!--//interests-section-->
 					    
 				    </div>
 			    </div><!--//row-->
+
+                <section class="resume-section summary-section mb-5">
+                    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">About Me</h2>
+                    <div class="resume-section-content">
+                        <p class="mb-0">
+                            A software engineer with 4 years of experience on developing robust surveillance,  ERP, and customized E-commerce systems. Working in fast-paced environments, my work priority has always been to find the most effective solutions. I always prefer to invest more time on unveiling the root causes of the issues. 
+                        </p>
+                    </div>
+                </section>
+
 		    </div><!--//resume-body-->
 		    
 		    
