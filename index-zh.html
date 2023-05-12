@@ -23,6 +23,8 @@
 			crossorigin="anonymous"
 		></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+
 		<!-- Theme CSS -->
 		<link
 			id="theme-style"
@@ -882,7 +884,7 @@
 								</h2>
 								<div class="resume-section-content">
 									<p>
-										6 年工作中，我曾參與監視系統、ERP系統、電商系統、售票系統等開發與維護。在節奏快速的環境裡，我善於找出更有效率的方式來處理問題，因為我相信根除問題才是解決問題的根本之道。
+										<span id="year-of-experience"></span> 年工作中，我曾參與監視系統、ERP系統、電商系統、售票系統等開發與維護。在節奏快速的環境裡，我善於找出更有效率的方式來處理問題，因為我相信根除問題才是解決問題的根本之道。
 									</p>
 								</div>
 							</section>
@@ -1195,3 +1197,11 @@
 		</footer>
 	</body>
 </html>
+
+<script>
+    let since = moment([2016, 2, 16]);
+    let now = moment();
+
+    expYear = now.diff(since, 'year') // 1
+    document.getElementById('year-of-experience').textContent = expYear
+</script>

@@ -23,6 +23,9 @@
 			crossorigin="anonymous"
 		></script>
 
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+
 		<!-- Theme CSS -->
 		<link
 			id="theme-style"
@@ -1258,7 +1261,7 @@
 						</h2>
 						<div class="resume-section-content">
 							<p class="mb-0">
-								A software engineer with six years of experience in surveillance, ERP, E-commerce, and
+                            A software engineer with <span id="year-of-experience"></span> years of experience in surveillance, ERP, E-commerce, and
 ticketing systems. Finding the most effective solutions has always been my priority working in fast-paced environments, and I continually invest more time in unveiling the root causes of the issues.
 							</p>
 						</div>
@@ -1281,3 +1284,11 @@ ticketing systems. Finding the most effective solutions has always been my prior
 		</footer>
 	</body>
 </html>
+
+<script>
+    let since = moment([2016, 2, 16]);
+    let now = moment();
+
+    expYear = now.diff(since, 'year') // 1
+    document.getElementById('year-of-experience').textContent = expYear
+</script>
